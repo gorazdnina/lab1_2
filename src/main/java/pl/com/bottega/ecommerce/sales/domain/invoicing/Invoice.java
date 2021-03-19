@@ -32,7 +32,7 @@ public class Invoice {
 
     private Id id;
 
-     private Invoice(Id invoiceId, ClientData client) {
+    private Invoice(Id invoiceId, ClientData client) {
         this.id = invoiceId;
         this.client = client;
         this.items = new ArrayList<InvoiceLine>();
@@ -72,6 +72,4 @@ public class Invoice {
         return gros;
     }
 
-
-    }
-
+}
